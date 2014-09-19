@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 15: CSS Interno</title>
+
+  <style>
+    body {
+      font-family: Arial, Verdana, sans-serif;
+    }
+
+    main {
+      background-color: cyan;
+    }
+
+    h2 {
+      /* Esto afecta a todos los H2 del sitio */
+      background-color: rgba(0,0,0,0.2);
+      font-family: Georgia, serif;
+      font-size: 30px;
+
+    }
+
+    article h2 {
+      /* Esto afecta a los H2 que son hijos de article */
+      font-size: 60px;
+    }
+
+    section h2 {
+      /* Esto afecta a los H2 que son hijos de section */
+      background-color: yellow;
+    }
+  </style>
+
+</head>
+<body>
+
+  <main>
+    <article>
+      <h2>Header 01</h2>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+    </article>
+
+    <section>
+      <h2>Header 02</h2>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+    </section>
+
+    <div>
+      <h2>Header 03</h2>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+    </div>
+  </main>
+</body>
+</html>
