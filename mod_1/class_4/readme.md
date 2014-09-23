@@ -38,10 +38,10 @@ Ancho de la imagen 50px + margen 10px = 60px;
 2. [Maquetar el Timeline de Twitter (http://twitter.com)](tarea2)
 
 
-## Información General
+### Información General
 * [CSS: display](css - display.md)
 * [CSS: box-shadow](http://librosweb.es/css_avanzado/capitulo_1/sombras.html)
 
 
-## Links Recomendados:
+### Links Recomendados:
 * [Smashing Magazine](http://www.smashingmagazine.com/)
