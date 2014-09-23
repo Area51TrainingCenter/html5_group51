@@ -12,9 +12,9 @@ Se caracteriza por ocupar una nueva línea y, generalmente, todo el ancho del el
 
 Existen 2 grupos de elementos HTML que tienen asignado este valor por defecto:
 * Para secciones: 
-  > `<body>`, `<section>`, `<nav>`, `<article>`, `<aside>`, `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, `<header>`, `<footer>`, `<address>`, `<main>`.
+  `<body>`, `<section>`, `<nav>`, `<article>`, `<aside>`, `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, `<header>`, `<footer>`, `<address>`, `<main>`.
 * Para agrupar contenido: 
-  > `<p>`, `<hr>`, `<pre>`, `<blockquote>`, `<ol>`, `<ul>`, `<li>`, `<dl>`, `<dt>`, `<dd>`, `<figure>`, `<figcaption>`, `<div>`.
+  `<p>`, `<hr>`, `<pre>`, `<blockquote>`, `<ol>`, `<ul>`, `<li>`, `<dl>`, `<dt>`, `<dd>`, `<figure>`, `<figcaption>`, `<div>`.
 También llamados "de tipo bloque".
 
 #### inline
