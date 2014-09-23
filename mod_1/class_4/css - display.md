@@ -6,7 +6,7 @@
 ### Valores mas usados
 > `block`, `inline`, `inline-block` y `none`.
 
-#### block
+#### display: block;
 Se caracteriza por ocupar una nueva línea y, generalmente, todo el ancho del elemento HTML donde este contenido.
 `<div>` es el elemento HTML mas usado que tiene este valor.
 
@@ -17,7 +17,7 @@ Existen 2 grupos de elementos HTML que tienen asignado este valor por defecto:
   `<p>`, `<hr>`, `<pre>`, `<blockquote>`, `<ol>`, `<ul>`, `<li>`, `<dl>`, `<dt>`, `<dd>`, `<figure>`, `<figcaption>`, `<div>`.
 También llamados "de tipo bloque".
 
-#### inline
+#### display: inline;
 Individualmente no tiene algo que lo caracterice pero al tener otros elementos HTML con el mismo valor (`display: inline;`), estos se juntan uno al lado del otro según la alineación de texto dada (Izquierda, Derecha, Centrado o Justificado), entre textos. Es usado usualmente dentro de contenedores de texto como `<p>`, `<a>`, etc.
 
 No permiten propiedades como `padding-top`, `padding-bottom`, `margin-top`, `margin-bottom`, `width` y `height`.
@@ -27,14 +27,14 @@ Elementos HTML que tienen asignado este valor por defecto:
 
 Tambien llamados "de tipo en línea".
 
-#### inline-block
+#### display: inline-block;
 Lo mismo que inline pero si admite el uso de `padding-top`, `padding-bottom`, `margin-top`, `margin-bottom`, `width` y `height`.
 
 No hay elementos HTML que tengan asignado este valor, se asigna manualmente.
 
 Se usa principalmente sobre elementos HTML de tipo en línea, generalmente cuando se maquetan links o botones.
 
-#### none
+#### display: none;
 Oculta el elemento HTML.
 
 No hay elementos HTML que tengan asignado este valor, se asigna manualmente.
