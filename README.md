@@ -1,15 +1,16 @@
-AREA51 Training Center
-======================
+# AREA51 Training Center
 
 Curso: HTML5
 Grupo: 51
 Frecuencia: Sábados
 
 Instructor: Ronald Bardalez I.
-CLASE 1
-CLASE 2
-CLASE 3
+Modulo 1
+- Clase 1
+- Clase 2
+- Clase 3
 
 Instructor: Renzo Castro Jurado.
-CLASE 4
+Modulo 1
+- Clase 4
 ...
