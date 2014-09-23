@@ -18,7 +18,7 @@ Uso de clases similar a las usadas por Twitter Bootstrap (http://getbootstrap.co
 
 Usamos en CSS `float: left;` y `overflow: hidden;`.
 
-Ademas de usar overflow: hidden; también podemos usar otra tecnica o truco conocido como "clearfix".
+Ademas de usar overflow: hidden; también podemos usar otra técnica o truco conocido como "clearfix".
 http://www.elwebmaster.com/articulos/css-el-nuevo-metodo-clearfix-para-quitar-floats
 
 *ejercicio.html*: Desarrollo de un menu en clase.
