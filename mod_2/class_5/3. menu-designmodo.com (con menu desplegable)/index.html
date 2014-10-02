@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Designmodo: Web Design Blog and WordPress Themes</title>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<header>
+		<!-- 
+			Para el uso de menu desplegables cambiamos la estructura simple de menu:
+			- nav > a
+			y pasamos a:
+			- nav > ul > li > a
+		 -->
+		<nav class="navbar">
+			<ul class="navbar-nav">
+				<li><a href="#" class="logo"><span></span></a></li>
+
+				<!-- Agregamos una clase para controlar los estilos del menu: dropdown-menu -->
+				<li class="dropdown-menu">
+					<a href="#">Categories</a>
+
+					<!-- El menu a desplegar -->
+					<ul>
+						<li><a href="#">Design</a></li>
+						<li><a href="#">Freebies</a></li>
+						<li><a href="#">Tutorials</a></li>
+						<li><a href="#">Coding</a></li>
+						<li><a href="#">Inspiration</a></li>
+						<li><a href="#">WordPress</a></li>
+						<li><a href="#">Resources</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Search</a></li>
+			</ul>
+
+			<ul class="navbar-nav navbar-right">
+				<li><a href="#">Follow us</a></li>
+				<li><a href="#">Sign In</a></li>
+			</ul>
+		</nav>
+	</header>
+
+</body>
+</html>

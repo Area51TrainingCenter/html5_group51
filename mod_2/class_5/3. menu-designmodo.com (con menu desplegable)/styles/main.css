@@ -1,0 +1,113 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-color: #f6f8f8;
+}
+
+header,
+.navbar {
+	background-color: #466cb3;
+}
+
+.navbar {
+	line-height: 1%;
+	margin: 0 auto;
+	width: 900px;
+}
+
+.navbar-right {
+	float: right;
+}
+
+.navbar-nav {
+	border-left: 1px solid #3d61a1;
+	border-right: 1px solid #577bbb;
+	display: inline-block;
+	overflow: hidden;
+	
+	/* quitamos los formatos de lista */
+	padding:0;
+	margin: 0;
+	list-style: none;
+	/* --- */
+}
+.navbar-nav li {
+	float: left;
+}
+.navbar-nav a {
+	border-left: 1px solid #577bbb;
+	border-right: 1px solid #3d61a1;
+	box-sizing: border-box;
+	color: #fff;
+	
+	display: inline-block;
+	font-size: 18px;
+	line-height: 55px;
+	padding: 0 26px;
+	text-decoration: none;
+
+	-webkit-transition: all 0.2s ease-in;
+	   -moz-transition: all 0.2s ease-in;
+	    -ms-transition: all 0.2s ease-in;
+	     -o-transition: all 0.2s ease-in;
+	        transition: all 0.2s ease-in;
+}
+
+.dropdown-menu:hover > a,
+.navbar-nav a:hover {
+	background-color: #fff;
+	border-left-color: #fff;
+	border-right-color: #fff;
+	color: #446cb3;
+}
+.navbar-nav a.logo {
+	-webkit-transition: none;
+	   -moz-transition: none;
+	    -ms-transition: none;
+	     -o-transition: none;
+	        transition: none;
+}
+.navbar-nav a.logo span {
+	background: url(../images/logo.png) no-repeat left top;
+	display: inline-block;
+	height: 25px;
+	width: 20px;
+	vertical-align: middle;
+}
+.navbar-nav a.logo:hover span {
+	background-position: right top;
+}
+
+
+/*******************
+  Menu desplegable
+********************/
+
+.dropdown-menu ul {
+	padding:0;
+	margin: 0;
+	list-style: none;
+
+	position: absolute;
+	background-color: #fff;
+
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.28);
+	width: 235px;
+
+	display: none;
+}
+.dropdown-menu ul li {
+	float: none;
+	border-bottom: 1px solid #eee;
+}
+.dropdown-menu ul li a {
+	border-left: none;
+	border-right: none;
+	display: block;
+	color: #7d7d7d;
+}
+.dropdown-menu:hover ul {
+	display: block;
+}
