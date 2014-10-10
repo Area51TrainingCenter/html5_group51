@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'mf_be_yourselfregular';
+    src: url('fonts/mf_be_yourself-webfont.eot');
+    src: url('fonts/mf_be_yourself-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mf_be_yourself-webfont.woff2') format('woff2'),
+         url('fonts/mf_be_yourself-webfont.woff') format('woff'),
+         url('fonts/mf_be_yourself-webfont.ttf') format('truetype'),
+         url('fonts/mf_be_yourself-webfont.svg#mf_be_yourselfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'mf_be_yourselfregular';
+}

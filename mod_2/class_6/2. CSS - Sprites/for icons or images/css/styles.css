@@ -1,0 +1,19 @@
+body {
+	background-color: #ccc;
+}
+
+.icon {
+	background: url(../img/index_abc.png);
+	
+	width: 16px;
+	height: 16px;
+}
+.icon-accept {
+	background-position: -5px -3px;
+}
+.icon-add {
+	background-position: -5px -20px;
+}
+.icon-disk {
+	background-position: -565px -275px;
+}
