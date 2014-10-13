@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box-container {
+            background-color: #ccc;
+            height: 300px;
+            position: relative;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            
+            /* Alineacion Horizontal
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -100px;
+            */
+            
+            /* Alineacion Vertical
+            position: absolute;
+            top: 50%;
+            left: 0;
+            margin-top: -100px;
+            */
+            
+            
+            /* alineacion en horizontal y vertical */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -100px;
+            margin-top: -100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

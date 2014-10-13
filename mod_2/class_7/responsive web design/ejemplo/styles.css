@@ -1,0 +1,94 @@
+body {
+    background-color: #ccc;
+    margin: 0;
+}
+header {
+    overflow: hidden;
+}
+.container {
+    background-color: #fff;
+    margin:0 auto;
+}
+.logo-container {
+    background-color: #069;
+    overflow: hidden;
+}
+.logo {
+    height: 40px;
+    line-height: 40px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.navbar {
+    float: none;
+    overflow: hidden;
+}
+.btn-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menu-top {
+    background-color: #dbc8c8;
+}
+.menu-top a {
+    display: block;
+    padding: 0 30px;
+    height: 40px;
+    line-height: 40px;
+}
+.toolbar {
+    margin: 0 10px;
+}
+.toolbar a {
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 700px;
+    }
+    .logo-container {
+        display: inline;
+    }
+    .logo {
+        float: left;
+    }
+    .menu-top a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .btn-menu {
+        display: none;
+    }
+    .navbar {
+        float: right;
+    }
+    .menu-top {
+        float: left;
+    }
+    .menu-top a {
+        float: left;
+    }
+    .toolbar {
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 920px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1120px;
+    }
+}
+

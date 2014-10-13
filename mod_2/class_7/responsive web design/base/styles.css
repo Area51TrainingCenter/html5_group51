@@ -1,0 +1,25 @@
+body {
+    background: #ccc;
+}
+.container {
+    background-color: #fff;
+    margin:0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 708px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+      width: 932px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+      width: 1140px;
+    }
+}
