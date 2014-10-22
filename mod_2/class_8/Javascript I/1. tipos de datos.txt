@@ -1,0 +1,13 @@
+var nombre; // se declara la variable
+nombre = 'Renzo'; // se asigna un valor a la variable
+
+var apellido = 'Lopez'; // se declara la variable y a la vez se asigna un valor
+
+number = -12345.2345
+string = ""
+array  = []
+object = {}
+function =  alert()
+boolean = true - false
+- operadores condicionales > < = == === >= <= !=
+
