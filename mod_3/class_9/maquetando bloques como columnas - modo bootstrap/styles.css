@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	width: 600px;
+}
+	.row {
+		padding: 0 5px;
+		overflow: hidden;
+		background-color: red;
+		margin-bottom: 10px;
+	}
+		.col-1 {
+			width: 8.33%;
+			float: left;
+			background-color: green;alc
+		}
+		.col-2 {
+			width: 16.66%;
+			float: left;
+			background-color: green;
+		}
+		.col-3 {
+			width: 25%;
+			float: left;
+			background-color: green;
+		}
+		.col-4 {
+			width: 33.33%;
+			float: left;
+			background-color: green;
+		}
+		.col-5 {
+			width: 41.66%;
+			float: left;
+			background-color: green;
+		}
+		.col-6 {
+			width: 50%;
+			float: left;
+			background-color: green;
+		}
+		.col-7 {
+			width: 58.33%;
+			float: left;
+			background-color: green;
+		}
+		.col-8 {
+			width: 66.66%;
+			float: left;
+			background-color: green;
+		}
+		.col-9 {
+			width: 75%;
+			float: left;
+			background-color: green;
+		}
+		.col-10 {
+			width: 83.33%;
+			float: left;
+			background-color: green;
+		}
+		.col-11 {
+			width: 91.66%;
+			float: left;
+			background-color: green;
+		}
+		.col-12	 {
+			width: 100%;
+			float: left;
+			background-color: green;
+		}
+			.box {
+				height: 60px;
+				margin: 0 5px;
+				background-color: yellow;
+			}

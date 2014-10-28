@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+.section-home {
+	background: url(bg.jpg) no-repeat center center;
+	height: 200px;
+	background-size: 100%;
+}
+
+@media (min-width: 768px){
+	.section-home {
+		height: 400px;
+		background-size: 100%;
+	}
+}

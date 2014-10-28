@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+}
+figure {
+	float: left;
+}
+
+.myImage {
+	width: 160px;
+	height: 120px;
+	background: url(photo.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .myImage {
+		background: url(photo@2x.jpg);
+		background-size: 160px 120px;
+	}
+}
+
+
+
