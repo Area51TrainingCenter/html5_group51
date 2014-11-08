@@ -1,0 +1,19 @@
+.controles {
+	width: 300px;
+}
+.controles .input-with-login {
+	width: 70%;
+	float: left;
+}
+.controles .btn-login {
+	width: 26%;
+	float: right;
+}
+
+.controles .checkbox-remember label{
+	float: left;
+	margin-right: 10px;
+}
+.controles .checkbox-remember .link-forgot {
+	float: left;
+}
