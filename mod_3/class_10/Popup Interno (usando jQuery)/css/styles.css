@@ -1,0 +1,78 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.btn {
+	display: inline-block;
+	background-color: #ccc;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	color: #333;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3),
+	            0 1px 1px rgba(255,255,255,0.6) inset;
+	padding: 7px 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn:hover {
+	background-color: #ddd;
+}
+
+.popup {
+	display: none;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	z-index: 9000;
+}
+.popup-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9001;
+
+	background-color: rgba(0,0,0,0.9);
+}
+.popup-window {
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	z-index: 9002;
+	
+	margin-left: -225px;
+	width: 550px;
+}
+
+.popup-header {
+	background-color: #eee;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	padding: 15px;
+}
+	.popup-header h1,
+	.popup-header h2,
+	.popup-header h3,
+	.popup-header h4,
+	.popup-header h5,
+	.popup-header h6 {
+		margin: 0;
+	}
+.popup-body {
+	background-color: #fff;
+	padding: 0 15px;
+	overflow: hidden;	
+}
+.popup-footer {
+	background-color: #ddd;
+	padding: 15px;
+	text-align: center;
+
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
